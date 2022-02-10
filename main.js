@@ -11,4 +11,20 @@ Modified: 12/06/21
     // You will need to modiffy the body of this function as described in the assignment Readme
 function button1Clicked() {
     console.log("Button 1 was clicked"); 
+    
+    let buttonDiv = document.getElementById("random_num");
+    buttonDiv.innerHtml = newText;
+    
+    console.log("Math.random is a built in function that returns " + 
+            "a random number. Ex. " + randNum);
+}
+
+function button2Clicked() {
+    console.log("Button 2 was clicked"); 
+    
+    let buttonDiv2 = document.getElementById("random_num");
+    buttonDiv2.innerHtml = newText;
+    
+    console.log("Math.random is a built in function that returns " + 
+            "a random number. Ex. " + randNum);
 }

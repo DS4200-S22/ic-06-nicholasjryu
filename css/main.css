@@ -2,3 +2,10 @@ body {
     font-family: Arial;
     font-size: 45px;
 }
+
+.circle {
+  height: 110px;
+  width: 110px;
+  background-color: blue;
+  border-radius: 50%;
+}
